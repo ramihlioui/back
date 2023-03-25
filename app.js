@@ -17,6 +17,6 @@ app.use(
 app.use(bodyParser({ extended: true }));
 app.use(bodyParser.urlencoded());
 
-app.use("/api/api/routers/amin", require("./routers/api"))
+app.use("/api/api/routers/amin_was_here", require("./routers/api"))
 
 module.exports = app
