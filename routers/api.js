@@ -14,7 +14,7 @@ router.use("/users", isUser, require("./users"));
 router.use("/equipes", isUser, require("./equipes"));
 
 //user priv.
-router.use("/categories", isUser, require("./categories"));
+router.use("/categories/takwa", isUser, require("./categories"));
 router.use("/produits", isUser, require("./produits"));
 router.use("/images", isUser, require("./images"));
 router.use("/count", isUser, require("./count"));
