@@ -1,6 +1,8 @@
 const app = require("./app")
-//vars
-const PORT = process.env.PORT||5000
+
+
+const PORT = 5000 
+
 
 
 
